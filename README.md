@@ -1,8 +1,7 @@
-# Team Treehouse math workshop | math.js | Workshop using the visitors inputs to do math. Add, Multiply, Divid and minor
+# Team Treehouse math workshop | math.js | Workshop using the visitors inputs to do math. addition, multiplication, division and subtract
 
-# Responsive Web Design Projects - Build a Personal Portfolio Webpage
-
-* You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is recommended because that is what the lessons have covered so far and you should get some practice with plain CSS. You can use Bootstrap or SASS if you choose. Additional technologies (just for example jQuery, React, Angular, or Vue) are not recommended for this project, and using them is at your own risk. Other projects will give you a chance to work with different technology stacks like React. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
+* The steps below are the steps taken for this math.js script file to working. 
+* It uses any input number by the visitor to do all available basic math problems
 
 - [x] **User Story #1:** Attach this file -- math.js -- to the index.html file using a <script> tag.
 
