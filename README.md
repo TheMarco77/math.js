@@ -25,4 +25,4 @@ The string should look something like this after concatenation: "3 + 4 = 7"
 - [x] **User Story #8:** Continue to add to the message variable to include strings demonstrating multiplication, division and subtraction.<br>For example: "3 * 4 = 12" "3 / 4 = 0.75" "3 - 4 = -1"
 
 - [x] **User Story #9:** Use the document.write() method to print the message variable to the web page.<br>
-<b>Open the finished.png file to see what the completed output should look like document.write(message);
+<b>Open the finished.png file to see what the completed output should look like.
