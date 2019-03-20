@@ -22,15 +22,7 @@ The string **'Math with the numbers 3 and 4'** should be in a **H1** tag and whe
 - [x] **User Story #7:** Add another string to the message variable.<br>
 The string should look something like this after concatenation: "3 + 4 = 7"
 
-- [x] **User Story #8:** Continue to add to the message variable to include strings demonstrating multiplication, division and subtraction. For example: "3 * 4 = 12" "3 / 4 = 0.75" "3 - 4 = -1"
+- [x] **User Story #8:** Continue to add to the message variable to include strings demonstrating multiplication, division and subtraction.<br>For example: "3 * 4 = 12" "3 / 4 = 0.75" "3 - 4 = -1"
 
-- [x] **User Story #9:** Use the document.write() method to print the message variable 
-//     to the web page. Open the finished.png file in this workspace
-//     to see what the completed output should look like
-document.write(message);
-
-- [x] **User Story #10:** The height of the welcome section should be equal to the height of the viewport.
-
-- [x] **User Story #11:** The navbar should always be at the top of the viewport.
-
-* Once you're done, submit the URL to your working project with all its tests passing.
+- [x] **User Story #9:** Use the document.write() method to print the message variable to the web page.
+<b>Open the finished.png file to see what the completed output should look like document.write(message);
