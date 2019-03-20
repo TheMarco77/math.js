@@ -16,7 +16,7 @@
 
 - [x] **User Story #6:** Create a new variable -- message -- which you'll use to build a complete message to print to the document
 Start by creating a string that includes **H1** tags as well and the two input numbers. The string should look something like this:
-<h1>Math  with the numbers 3 and 4</h1> where the two numbers are the values input from the user. Use string concatenation to create this and make sure you actually perform the math on the values by using the + symbol to add their values together.
+**H1** Math  with the numbers 3 and 4 **/H1** where the two numbers are the values input from the user. Use string concatenation to create this and make sure you actually perform the math on the values by using the + symbol to add their values together.
 
 - [x] **User Story #7:** Add another string to the message variable. The string should look something like this after concatenation: "3 + 4 = 7"
 
