@@ -19,7 +19,7 @@
 start by creating a string that includes **H1** tags as well and the two input numbers. 
 The string **'Math with the numbers 3 and 4'** should be in a **H1** tag and where the two numbers are the values input from the user should use the string **concatenation** to create this and make sure you actually perform the math on the values by using the + symbol to add their values together.
 
-- [x] **User Story #7:** Add another string to the message variable. 
+- [x] **User Story #7:** Add another string to the message variable.<br>
 The string should look something like this after concatenation: "3 + 4 = 7"
 
 - [x] **User Story #8:** Continue to add to the message variable to include strings demonstrating multiplication, division and subtraction. For example: "3 * 4 = 12" "3 / 4 = 0.75" "3 - 4 = -1"
