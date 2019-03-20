@@ -1,2 +1,2 @@
 # Team Treehouse math workshop
-#math.js
+# math.js
