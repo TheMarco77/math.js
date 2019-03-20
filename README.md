@@ -1,4 +1,5 @@
-# Team Treehouse math workshop | math.js | by using the visitors number inputs to do math. Addition, multiplication, division and subtract
+# Team Treehouse math workshop | math.js | by using the visitors number inputs to do math. Addition, multiplication, division and subtract.
+https://themarco77.github.io/math.js/
 
 * The steps below are the steps taken for this math.js script file to working. 
 * It uses any input number by the visitor to do all available basic math problems
