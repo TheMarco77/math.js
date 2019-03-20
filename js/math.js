@@ -35,8 +35,8 @@ var message = '<h1>Math with the numbers ' + num1 + ' and ' + num2 + '!' + '</h1
 //    "3 - 4 = -1"
 message += '<p>' + num1 + ' + ' + num2 + ' = ' + (num1 + num2) + '</p>';
 message += '<p>' + num1 + ' * ' + num2 + ' = ' + (num1 * num2) + '</p>';
-// message += '<p>' + num1 + ' / ' + num2 + ' = ' + (num1 / num2) + '</p>';
-// message += '<p>' + num1 + ' - ' + num2 + ' = ' + (num1 - num2) + '</p>';
+message += '<p>' + num1 + ' / ' + num2 + ' = ' + (num1 / num2) + '</p>';
+message += '<p>' + num1 + ' - ' + num2 + ' = ' + (num1 - num2) + '</p>';
 
 // 10. Use the document.write() method to print the message variable 
 //     to the web page. Open the finished.png file in this workspace
