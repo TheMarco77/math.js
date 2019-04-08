@@ -1,31 +1,34 @@
-// 1. Alert announcement "Let's do some math!"
+// declare program variable
+var num1;
+var num2;
+var message;
+
+// announcement the program
 alert("Let's do some math!");
 
-// 2. Create a variable and use the prompt() collect a number from a visitor
-var num1 = prompt("Please type a number");
-var num2 = prompt("Please type another number");
-
-// 3. Convert those values from a string to floating point numbers
+// collect numeric inputs
+num1 = prompt("Please type a number");
 num1 = parseFloat(num1);
+num2 = prompt("Please type another number");
 num2 = parseFloat(num2);
 
-// 6. Create a new variable -- message -- which you'll use to build a complete message to print to the document use "<h1>Math with the numbers 3 and 4</h1>" 
-// and use string concatenation
-var message = '<h1>Math with the numbers ' + num1 + ' and ' + num2 + '!' + '</h1>';
+// if and else if clause 
+if (num2 === 0) {
+    alert("The second number is 0. You can't divide by zero. Reload and try again.");
+}
 
-// 7. Add another string to the message variable the string should look something like this after concatenation:
-// "3 + 4 = 7"
+else if (isNaN(num1) || isNaN(num2)) {
+    alert("At least one of the values you typed is not a number. Reload and try again.");
+}
 
-// 8. Continue to add to the message variable to include strings
-//    demonstrating multiplication, division and subtraction
-//    For example:
-//    "3 * 4 = 12"
-//    "3 / 4 = 0.75"
-//    "3 - 4 = -1"
+else {
+// build HTML message
+message = '<h1>Math with the numbers ' + num1 + ' and ' + num2 + '!' + '</h1>';
 message += '<p>' + num1 + ' + ' + num2 + ' = ' + (num1 + num2) + '</p>';
 message += '<p>' + num1 + ' * ' + num2 + ' = ' + (num1 * num2) + '</p>';
 message += '<p>' + num1 + ' / ' + num2 + ' = ' + (num1 / num2) + '</p>';
 message += '<p>' + num1 + ' - ' + num2 + ' = ' + (num1 - num2) + '</p>';
 
-// 10. Use the document.write() method to print the message variable to the web page.
+// write message to the web browser
 document.write(message);
+}
