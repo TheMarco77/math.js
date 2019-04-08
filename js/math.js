@@ -16,11 +16,9 @@ num2 = parseFloat(num2);
 if (num2 === 0) {
     alert("The second number is 0. You can't divide by zero. Reload and try again.");
 }
-
 else if (isNaN(num1) || isNaN(num2)) {
     alert("At least one of the values you typed is not a number. Reload and try again.");
 }
-
 else {
 // build HTML message
 message = '<h1>Math with the numbers ' + num1 + ' and ' + num2 + '!' + '</h1>';
